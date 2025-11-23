@@ -35,18 +35,29 @@ Completed on **27/10/2025** with bonus.
 
 ## 🔷 Usage
 
-- First, clone this repository.
-
-`make` to compile mandatory functions.\
-`make bonus` to compile bonus functions.
-
-I have provided a complete `main` to test all functions. You can run it using this command:\
-```cc -Wall -Werror -Wextra main/main.c libft.a && ./a.out```\
-Enter the number of the function you want to test *(ex: 1 for ft_isalpha)*, then follow the instructions.
-
-A main without bonus dependencies is also available. Use `main_no_bonus.c` instead.
-
-⚠️ **Note:** The compilation will fail if some functions are missing from your library.
+### First, clone this repository.
+```bash
+https://github.com/Overtekk/Libft.git
+```
+### Compile with make...
+```bash
+make
+```
+### ...and add bonus functions
+```bash
+make bonus
+```
+### You can use my `main` to test all functions. You can run it using
+```bash
+cc -Wall -Werror -Wextra main/main.c libft.a && ./a.out
+```
+### Enter the number of the function you want to test *(ex: 1 for ft_isalpha)*, then follow the instructions.
+### A main without bonus dependencies is also available. Use this instead:
+```bash
+cc -Wall -Werror -Wextra main/main_no_bonus.c libft.a && ./a.out
+```
+> [!WARNING]
+> The compilation will fail if some functions are missing from your library.
 
 ## 🖱️ Function list
 
